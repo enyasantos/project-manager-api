@@ -1,0 +1,51 @@
+# Arquivos de compilação e binários
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Arquivos de configuração específicos de IDEs
+.idea/
+.vscode/
+
+# Arquivos de log e dados temporários
+*.log
+*.log.*
+*.log-*
+*.tmp
+
+# Diretórios de construção
+/bin/
+/pkg/
+/vendor/
+
+# Dependências geradas pelo módulo Go
+/go.sum
+/go.mod
+
+# Diretório para cobertura de testes
+/coverage/
+
+# Arquivos de configuração específicos para Go
+/.air.toml   # Se você usa o "Air" para desenvolvimento
+/Gopkg.lock  # Se você usa Glide
+/Godeps/     # Se você usa Godep
+
+# Diretórios de arquivos gerados por ferramentas de documentação
+/doc/
+/docs/
+
+# Diretórios de arquivos gerados por ferramentas de testes
+/.cache/
+/.test/
+
+# Arquivos de ambiente (por exemplo, .env)
+.env
+.env.*
+!*.env.example
+
+# Arquivos específicos de sistema (por exemplo, Thumbs.db no Windows)
+Thumbs.db
+.DS_Store
