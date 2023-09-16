@@ -16,6 +16,7 @@ func InitializeRoutes(router *gin.Engine) {
 	projects := v1.Group("projects")
 	{
 		projects.GET("", handler.IndexProjectHandler)
+		projects.GET("/search", handler.SearchProjectHandler)
 	}
 
 	project := v1.Group("project")

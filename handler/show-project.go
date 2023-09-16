@@ -18,7 +18,7 @@ import (
 // @Success 200 {object} ShowProjectResponse
 // @Failure 400 {object} ErrorResponse
 // @Failure 500 {object} ErrorResponse
-// @Router /project [post]
+// @Router /project [get]
 func ShowProjectHandler(ctx *gin.Context) {
 	id := ctx.Param("id")
 	if id == "" {
